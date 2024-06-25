@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-auto-fit-minmax {
+    @apply grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: .3em;
+  }
